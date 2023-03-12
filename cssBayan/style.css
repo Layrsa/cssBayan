@@ -40,7 +40,7 @@
 }
 
 .image1{
-    width: 0;
+    width: 100%;
     aspect-ratio: 3/2;
     background-image: url(./assets/7dq570.jpg);
     background-size: cover;
@@ -60,13 +60,22 @@
     transition: all 500ms ease;
 }
 
+.txtf {
+    color: rgb(73, 73, 73);
+}
+
+.txt1f {
+    color: rgb(73, 73, 73);
+    transform: rotate(90deg);
+}
+
 .txt1{
     transition: all .2s ease;
     color: rgb(255, 255, 255);
 }
 
 .line:hover .txt1{
-    transform: rotate(52deg);
+    transform: rotate(90deg);
     transition: all 500ms ease;
 }
 
