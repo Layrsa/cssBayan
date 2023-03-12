@@ -10,6 +10,10 @@
     color: rgb(73, 73, 73);
 }
 
+.wrap:hover .memblock .line .txt1{
+    color: rgb(73, 73, 73);
+}
+
 .line{
     display: flex;
     justify-content: space-between;
@@ -29,20 +33,31 @@
     cursor: pointer;
 }
 
-
 .image1{
     width: 0;
     aspect-ratio: 3/2;
     background-image: url(./assets/7dq570.jpg);
     background-size: cover;
+    transition: all 300ms ease
+}
+
+.image1:hover{
+    width: 100%;
 }
 
 .line:hover + .image1 {
     width: 100%;
+    transition: all 500ms ease;
+}
+
+.txt1{
+    transition: all .2s ease;
+    color: rgb(255, 255, 255);
 }
 
 .line:hover .txt1{
     transform: rotate(52deg);
+    transition: all 500ms ease;
 }
 
 .image2{
@@ -50,10 +65,16 @@
     aspect-ratio: 3/2;
     background-image: url(./assets/7e2dba.jpg);
     background-size: cover;
+    transition: all 500ms ease;
+}
+
+.image2:hover{
+    width: 100%;
 }
 
 .line:hover + .image2 {
     width: 100%;
+    transition: all 500ms ease;
 }
 
 .image3{
@@ -61,10 +82,16 @@
     aspect-ratio: 3/2;
     background-image: url(./assets/7e329c.jpg);
     background-size: cover;
+    transition: all 500ms ease;
+}
+
+.image3:hover{
+    width: 100%;
 }
 
 .line:hover + .image3 {
     width: 100%;
+    transition: all 500ms ease;
 }
 
 .image4{
@@ -72,10 +99,16 @@
     aspect-ratio: 3/2;
     background-image: url(./assets/7e528u.jpg);
     background-size: cover;
+    transition: all 500ms ease;
+}
+
+.image4:hover{
+    width: 100%;
 }
 
 .line:hover + .image4 {
     width: 100%;
+    transition: all 500ms ease;
 }
 
 .image5{
@@ -83,8 +116,14 @@
     aspect-ratio: 3/2;
     background-image: url(./assets/7e5npp.jpg);
     background-size: cover;
+    transition: all 500ms ease;
+}
+
+.image5:hover{
+    width: 100%;
 }
 
 .line:hover + .image5 {
     width: 100%;
+    transition: all 500ms ease;
 }
