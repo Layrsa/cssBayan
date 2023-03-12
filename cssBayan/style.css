@@ -6,6 +6,10 @@
     user-select: none;
 }
 
+.wrap:hover{
+    color: rgb(73, 73, 73);
+}
+
 .line{
     display: flex;
     justify-content: space-between;
@@ -17,9 +21,70 @@
 .title{
     font-size: 200%;
     padding: 4%;
+    color: rgb(73, 73, 73);
 }
 
 .memblock{
     padding: 2%;
     cursor: pointer;
+}
+
+
+.image1{
+    width: 0;
+    aspect-ratio: 3/2;
+    background-image: url(./assets/7dq570.jpg);
+    background-size: cover;
+}
+
+.line:hover + .image1 {
+    width: 100%;
+}
+
+.line:hover .txt1{
+    transform: rotate(52deg);
+}
+
+.image2{
+    width: 0;
+    aspect-ratio: 3/2;
+    background-image: url(./assets/7e2dba.jpg);
+    background-size: cover;
+}
+
+.line:hover + .image2 {
+    width: 100%;
+}
+
+.image3{
+    width: 0;
+    aspect-ratio: 3/2;
+    background-image: url(./assets/7e329c.jpg);
+    background-size: cover;
+}
+
+.line:hover + .image3 {
+    width: 100%;
+}
+
+.image4{
+    width: 0;
+    aspect-ratio: 3/2;
+    background-image: url(./assets/7e528u.jpg);
+    background-size: cover;
+}
+
+.line:hover + .image4 {
+    width: 100%;
+}
+
+.image5{
+    width: 0;
+    aspect-ratio: 3/2;
+    background-image: url(./assets/7e5npp.jpg);
+    background-size: cover;
+}
+
+.line:hover + .image5 {
+    width: 100%;
 }
